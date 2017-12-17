@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hazemmarawan.fcisshopping.Search">
+
+    <RadioGroup
+        android:layout_width="300dp"
+        android:layout_height="100dp">
+
+        <RadioButton
+            android:id="@+id/VoiceIDRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Voice" />
+
+        <RadioButton
+            android:id="@+id/TextSearchIDRadio"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Text" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/KeyWordID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:hint="Enter Keyword" />
+
+    <TextView
+        android:id="@+id/TestSearchingV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/SEARCHTEXTID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="Search By Text" />
+
+    <ImageButton
+        android:id="@+id/SEARCHVOICEID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_keyboard_voice_black_24dp" />
+
+    <ListView
+        android:id="@+id/SeaList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

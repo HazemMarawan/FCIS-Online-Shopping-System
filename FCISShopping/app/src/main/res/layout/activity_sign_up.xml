@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hazemmarawan.fcisshopping.SignUP">
+
+    <EditText
+        android:id="@+id/FULLNAMEID"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Full Name" />
+
+    <EditText
+        android:id="@+id/NICKNAMEID"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter NickName" />
+
+    <EditText
+        android:id="@+id/EMAILID"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Email" />
+
+    <EditText
+        android:id="@+id/PASSWORDID"
+        android:layout_width="229dp"
+        android:inputType="numberPassword"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+         />
+
+    <EditText
+        android:id="@+id/QuestionID"
+        android:layout_width="229dp"
+        android:hint="Enter Question?"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/AnswerOfQueID"
+        android:layout_width="229dp"
+        android:hint="Enter Answer"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/CaLID"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+
+        app:srcCompat="@drawable/ic_timer_black_24dp" />
+
+    <TextView
+        android:id="@+id/DATEID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Birthdate" />
+
+    <RadioGroup
+        android:layout_width="422dp"
+        android:layout_height="101dp">
+
+        <RadioButton
+            android:id="@+id/MALEID"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/FEMALEID"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Female" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/JOBID"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your JOB" />
+
+    <Button
+        android:id="@+id/SIGNUPID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignUP" />
+</LinearLayout>

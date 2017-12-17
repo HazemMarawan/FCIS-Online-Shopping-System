@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/CategoriesID" android:title="Categories"></item>
+    <item android:id="@+id/SearchID" android:title="Search"></item>
+    <item android:id="@+id/SListID" android:title="Shopping List"></item>
+    <item android:id="@+id/LogoutID" android:title="Logout"></item>
+
+
+
+</menu>
